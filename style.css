@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+
+.top-container {
+    background-image: url("https://i.ytimg.com/vi/YPgDpp8jG7g/maxresdefault.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+
+.text{
+    margin: 50px 5%; 
+    font-family: sans-serif;   
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 8px rgba(0,0,0, .3);
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+.navbar.active {
+    background-color: black;
+}
+
+.navbar.active ul li a{
+    color: white;
+}
+
